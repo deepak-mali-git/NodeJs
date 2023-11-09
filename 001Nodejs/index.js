@@ -153,18 +153,18 @@
 //###############################################
 // Call Stack -> Node API's -> Event Loop
 
-const express = require('express')
-const app = express()
+// const express = require('express')
+// const app = express()
 
-app.get('',(req,res) => {
-    res.send("Hello this is a Home page")
-})
+// app.get('',(req,res) => {
+//     res.send("Welcome to Homepage " + req.query.name)
+// })
 
-app.get('/about',(req,res) => {
-    res.send("Hello this is about page")
-})
-app.get('/help',(req,res) => {
-    res.send("Hello this is help page")
-})
+// app.get('/about',(req,res) => {
+//     res.send("Hello this is about page")
+// })
+// app.get('/help',(req,res) => {
+//     res.send("Hello this is help page")
+// })
 
-app.listen(5000)
+// app.listen(5000)
